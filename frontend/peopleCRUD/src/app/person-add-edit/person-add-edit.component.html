@@ -1,0 +1,27 @@
+<div mat-dialog-title>
+  <h1>Person Form</h1>
+</div>
+<form [formGroup]="personForm">
+  <div mat-dialog-content>
+    <div class="row">
+      <mat-form-field appearance="outline">
+        <mat-label>First Name</mat-label>
+        <input matInput type="text" formControlName="firstName">
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Last Name</mat-label>
+        <input matInput type="text" formControlName="lastName">
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Image Link</mat-label>
+        <input matInput type="text" formControlName="image">
+      </mat-form-field>
+    </div>
+  </div>
+  <div mat-dialog-actions>
+    <button mat-raised-button (click)="onCancel()">Cancel</button>
+    <button mat-raised-button type="submit" (click)="onFormSubmit()">{{data? "Update" : "Save"}}</button>
+  </div>
+
+</form>
+

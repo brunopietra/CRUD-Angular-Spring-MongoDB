@@ -1,0 +1,43 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.toolbar {
+  background-color: black;
+  color: #fff;
+}
+
+/* Exemplo de ajuste de cor para barras de navegação */
+.raised-button {
+  background-color: #222;
+  color: #fff;
+}
+
+.main-body{
+  padding-top: 20px;
+  margin: 0 auto;
+  max-width: 1248px;
+  mat-form-field{
+    width: 100%;
+  }
+}
+
+.action-button{
+  margin: 3px;
+}
+
+.circle-image {
+  margin-top: 5px;
+  width: 50px; /* Define o tamanho fixo */
+  height: 50px;
+  border-radius: 50%; /* Transforma a imagem em um círculo */
+  overflow: hidden; /* Oculta as partes da imagem que ficariam fora do círculo */
+  display: inline-block; /* Mantém o layout do círculo */
+}
+
+.circle-image img {
+  width: 100%; /* Preenche todo o espaço do círculo */
+  height: 100%;
+  object-fit: cover; /* Ajusta a imagem dentro do círculo */
+}
+
