@@ -5,8 +5,8 @@ This CRUD is about people. Each person has an image, a first name and a last nam
 
 
 
+![image](https://github.com/brunopietra/CRUD-Angular-Spring-MongoDB/assets/80489061/5718c005-4152-4ad0-a410-a4a7d5c19c68)
 
-![image](https://github.com/brunopietra/CRUD-Angular-Spring-MongoDB/assets/80489061/0ee590fa-4765-44f7-b3e9-774cabed5fb9)
 
 
 
@@ -18,7 +18,8 @@ This CRUD is about people. Each person has an image, a first name and a last nam
 
 
 
-![image](https://github.com/brunopietra/CRUD-Angular-Spring-MongoDB/assets/80489061/19e69c24-3a65-44e2-af12-5688a53e09de)
+![image](https://github.com/brunopietra/CRUD-Angular-Spring-MongoDB/assets/80489061/0887b474-0fd2-49dd-ad52-aefc3f948100)
+
 
 
 
